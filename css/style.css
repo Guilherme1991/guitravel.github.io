@@ -43,7 +43,7 @@
         .image{
             overflow: hidden;
             position: relative;
-            width: auto;
+            width: 25%;
             height: 250px;
             border: 3px solid black;
         }
@@ -101,6 +101,15 @@
         footer p{
             color: white;
             padding: 20px;
+        }
+        .trocou{
+            display: block;
+        }
+        .txt_1, .txt_2, .txt_3, .txt_4{
+            position: absolute;
+            background: #00000054;
+            width: 100%;
+            height: 100%;
         }
         @media screen and (max-width: 1100px){
             .image{
