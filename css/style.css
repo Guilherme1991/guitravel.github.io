@@ -60,6 +60,7 @@
             transform: scale(1.2);
         }
         header{
+            overflow: hidden;
             background-image: url('../img/rio.jpg');
             background-size: cover;
             width: 100%;
@@ -71,20 +72,19 @@
             background: #0000008c;
         }
         .txt{
-            overflow: hidden;
             position: relative;
             top: 200px;
             width: 700px;
             float: left;
             padding: 10px;
             margin-left: 20px;
+            animation-duration: 3s;
+            animation-name: run;
         }
         .txt h1{
             font-family: 'Montserrat', sans-serif;
             margin-bottom: 20px;
             color: rgb(214, 214, 214);
-            animation-duration: 3s;
-            animation-name: run;
         }
         @keyframes run{
           from{
