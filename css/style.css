@@ -71,6 +71,7 @@
             background: #0000008c;
         }
         .txt{
+            overflow: hidden;
             position: relative;
             top: 200px;
             width: 700px;
