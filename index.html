@@ -10,6 +10,7 @@
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" 
     crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <script src="jquery.js"></script>
     <title>Protótipo</title>
 </head>
 <body>
@@ -89,31 +90,11 @@
    </footer>
 
     <script>
-        <!--
-        let img = document.querySelectorAll('.image');
-
-        function images(){
-           if(this.images() == true){
-               img.classList.add('trocou');
-           }
-           else{
-               img.classList.remove('trocou');
-           }
-        }//-->
-        /*
-         nav menu com position fixed oculto, não deu certo em javaScript aí eu fiz de Comentário!
-
-          var fixo = document.getElementById('menu');
-          //Arrow function!       
-          fixo.addEventListener('scroll', () =>{
-            if(window.scrollY >= 100){
-            fixo.classList.add('fixed');
-            }
-            else{
-            fixo.classList.remove('fixed');
-            }
-          })  
-        */     
+       $(function(){
+           $('.fa-bars').click(function(){
+             $('nav ul').toggleClass('ativo');
+           })
+       });
     </script>
 </body>
 </html>
